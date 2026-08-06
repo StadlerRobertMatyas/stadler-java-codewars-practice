@@ -1,16 +1,13 @@
-package com.stadlerrobertmatyas.kyu8;
+package com.stadlerrobertmatyas.kyu7;
 
 // https://www.codewars.com/kata/52fba66badcd10859f00097e
-public class DisemvowelTrolls02 {
+public class DisemvowelTrolls01 {
 
     public static String disemvowel(String str) {
-
         if (str == null) {
             return null;
         }
-
         StringBuilder filtered = new StringBuilder(str.length());
-
         for (char c : str.toCharArray()) {
             switch (c) {
                 case 'a':
