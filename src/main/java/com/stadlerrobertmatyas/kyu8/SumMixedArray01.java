@@ -2,6 +2,7 @@ package com.stadlerrobertmatyas.kyu8;
 
 import java.util.List;
 
+// https://www.codewars.com/kata/57eaeb9578748ff92a
 public class SumMixedArray01 {
 
     public int sum(List<?> mixed) {
