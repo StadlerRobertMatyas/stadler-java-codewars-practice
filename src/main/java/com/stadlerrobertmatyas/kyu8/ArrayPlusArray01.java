@@ -1,5 +1,6 @@
 package com.stadlerrobertmatyas.kyu8;
 
+// https://www.codewars.com/kata/5a2be17aee1aaefe2a000151
 public class ArrayPlusArray01 {
 
     public static int arrayPlusArray(int[] arr1, int[] arr2) {
