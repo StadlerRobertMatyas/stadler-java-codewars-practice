@@ -6,7 +6,6 @@ import java.util.*;
 public class MergingSortedIntegerArraysWithoutDuplicates01 {
 
     public static int[] mergeArrays(int[] first, int[] second) {
-        int counter = 0;
         int index = 0;
         Set<Integer> uniqueNumbers = new TreeSet<>();
 
