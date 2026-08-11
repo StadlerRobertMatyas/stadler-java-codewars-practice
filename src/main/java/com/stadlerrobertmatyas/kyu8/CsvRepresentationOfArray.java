@@ -5,6 +5,7 @@ public class CsvRepresentationOfArray {
 
     public static String toCsvText(int[][] array){
         StringBuilder matrix = new StringBuilder();
+
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 if (j < array[i].length - 1) {
