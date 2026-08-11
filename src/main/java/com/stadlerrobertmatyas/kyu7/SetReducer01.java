@@ -2,6 +2,7 @@ package com.stadlerrobertmatyas.kyu7;
 
 import java.util.Arrays;
 
+// https://www.codewars.com/kata/63cbe409959401003e09978b
 public class SetReducer01 {
 
     public static int setReducer(int[] input) {
