@@ -1,7 +1,7 @@
 package com.stadlerrobertmatyas.kyu8;
 
 // https://www.codewars.com/kata/5a34af40e1ce0eb1f5000036
-public class CSVRepresentationOfArray {
+public class CsvRepresentationOfArray {
 
     public static String toCsvText(int[][] array){
         StringBuilder matrix = new StringBuilder();
