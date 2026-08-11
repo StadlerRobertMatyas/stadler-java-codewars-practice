@@ -16,7 +16,7 @@ public class PrisonBreak01 {
             int nextIndex = -1;
 
             for (int i = currentIndex; i < prison.length; i++) {
-                if (isUnlocked == true) {
+                if (isUnlocked) {
                     if (prison[i] == true) {
                         nextIndex = i;
                         break;

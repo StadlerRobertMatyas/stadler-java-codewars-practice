@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 
 class PrisonBreak01Test {
+
     @Test
     @DisplayName("Fixed basic tests")
     void testBasicCases() {
