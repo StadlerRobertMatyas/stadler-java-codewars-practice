@@ -4,6 +4,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.range;
 
 // https://www.codewars.com/kata/671bd5419ea261fbb8d0a0ca
+// BitwiseOperatorExample extra package-ben --> az egy darab & miatt, bitwise ÉS
 public class MewCipher02 {
 
     /*
