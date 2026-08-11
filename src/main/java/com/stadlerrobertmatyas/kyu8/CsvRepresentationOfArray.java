@@ -9,12 +9,12 @@ public class CsvRepresentationOfArray {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 if (j < array[i].length - 1) {
-                    matrix.append(array[i][j] + ",");
+                    matrix.append(array[i][j]).append(",");
                 } else {
                     if (j == array[i].length - 1 && i == array.length - 1) {
                         matrix.append(array[i][j]);
                     } else {
-                        matrix.append(array[i][j] + "\n");
+                        matrix.append(array[i][j]).append("\n");
                     }
                 }
             }
