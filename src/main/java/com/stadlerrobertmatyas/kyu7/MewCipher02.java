@@ -6,9 +6,17 @@ import static java.util.stream.IntStream.range;
 // https://www.codewars.com/kata/671bd5419ea261fbb8d0a0ca
 public class MewCipher02 {
 
+    /*
+    i --> charIndex, columnIndex, colIndex, position
+    j --> stringIndex, rowIndex
+    s --> sum, totalValue, acc, accumulator
+    c --> alphabeticalIndex, charIndex
+     */
     public static String decipher(String[] code) {
         return range(0, code[0].length())
-                .map(i -> range(0, code.length).reduce(0, (s, j) -> s + (code[j].charAt(i) & 31)) / code.length)
-                .mapToObj(c -> (char) (c > 0 ? c + 96 : 32) + "").collect(joining());
+                .map(columnIndex -> range(0, code.length)
+                        .reduce(0, (acc, rowIndex) -> acc + (code[rowIndex].charAt(columnIndex) & 31)) / code.length)
+                .mapToObj(alphabeticalIndex -> (char) (alphabeticalIndex > 0 ? alphabeticalIndex + 96 : 32) + "")
+                .collect(joining());
     }
 }
